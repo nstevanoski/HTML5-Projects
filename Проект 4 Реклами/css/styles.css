@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-wrapper {
+    -webkit-box-shadow: 10px 10px 21px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 21px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 21px 0px rgba(0, 0, 0, 0.75);
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0e005d;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+nav .active {
+    background-color: #190041;
+}
+
+#topbanner {
+    padding: 2.5em;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mainContent {
+    float: left;
+    width: 415px;
+    margin-top: 1em;
+}
+
+article {
+    clear: both;
+}
+
+#videoContainer {
+    margin: 0px auto;
+    width: 480px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+aside h1 {
+    font-variant: all-petite-caps;
+    text-align: center;
+    background: whitesmoke;
+    padding: 5px;
+}
+
+header {
+    margin: 0;
+}
+
+section {
+    width: 80%;
+    float: left;
+    padding-right: 20px;
+}
+
+aside {
+    float: left;
+    width: 20%;
+}
+
+.imageLeft {
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}

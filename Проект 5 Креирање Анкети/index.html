@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Stevanoski Production - Анкети</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/transitions.css" rel="stylesheet" media="screen, projection">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.2.5.3.min.js"></script>
+    <script type="text/javascript" src="js/utils.js"></script>
+    <script type="text/javascript" src="js/custom_survey.js"></script>
+    <script type="text/javascript" src="js/jquery.columnizer.min.js"></script>
+    <script type="text/javascript" src="js/html5slider.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="topbanner">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#pocetna">ПОЧЕТНА</a></li>
+                <li><a class="active" href="index.html">АНКЕТА</a></li>
+                <li><a href="#kontakt">КОНТАКТ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-wrapper">
+        <article id="mainContent">
+            <h1>Анкета за online настава</h1>
+            <p>Почитувани студенти, анкетата е анонимна. Во рамки на вреднување на online наставата на факултетите на Универзитетот „Мајка Тереза“ – Скопје, со помош на овој прашалник може да го оцените своето задоволство од квалитетот на наставата на Вашите
+                наставници и асистенти за секој предмет од семестарот. Исто така треба да дадете Вашето мислење за online полагање на колоквиумите. Вашите искрени одговори може да укажат на недостатоците и тешкотиите во наставата и да придонесат за подобрување
+                на нејзиниот квалитет. Ако некоја оцена не можете да ја дадете или не е применлива за одреден наставник изберете го одговорот „не можам да проценам“. Ве молиме, сите оцени да ги дадете со чекирање на полето на избраниот одговор.</p>
+            <div id="theArt">
+                <div id="cube" class="show-front">
+                    <form id="theForm" method="post" action="thanks.html">
+                        <div class="front panel">
+                            <div class="innerContainer">
+                                <h2>Прашање 1/5</h2>
+                                <p>Колку од Вашите предавањата се организирани online?</p>
+                                <div class="column">
+                                    <p>
+                                        <label>
+                  <input name="interests_" type="checkbox" class="interests" id="interests_0" value="0%" />
+                  0%</label>
+                                    </p>
+                                    <p>
+                                        <label>
+                  <input name="interests_" type="checkbox" class="interests" id="interests_1" value="10%"/ >
+                  10%</label>
+                                    </p>
+                                    <p>
+                                        <label>
+                  <input name="interests_" type="checkbox" class="interests" id="interests_2" value="15%" / >
+                  15%</label>
+                                    </p>
+                                    <p>
+                                        <label>
+                  <input name="interests_" type="checkbox" class="interests" id="interests_3" value="25%" />
+                  25%</label>
+                                    </p>
+                                    <p>
+                                        <label>
+                  <input name="interests_" type="checkbox" class="interests" id="interests_4" value="35%" />
+                  35%</label>
+                                    </p>
+                                    <p>
+                                        <label>
+                  <input name="interests_" type="checkbox" class="interests" id="interests_5" value="45%" />
+                  45%</label>
+                                    </p>
+                                    <p>
+                                        <label>
+                  <input name="interests_" type="checkbox" class="interests" id="interests_6" value="55%" />
+                  55%</label>
+                                    </p>
+                                    <p>
+                                        <label>
+                  <input name="interests_" type="checkbox" class="interests" id="interests_7" value="75%">
+                  75%</label>
+                                    </p>
+                                    <p>
+                                        <label>
+                  <input name="interests_" type="checkbox" class="interests" id="interests_8" value="80%" />
+                  80%</label>
+                                    </p>
+                                    <p>
+                                        <label>
+                  <input name="interests_" type="checkbox" class="interests" id="interests_9" value="85%" />
+                  85%</label>
+                                    </p>
+                                    <p>
+                                        <label>
+                  <input name="interests_" type="checkbox" class="interests" id="interests_10" value="90%" />
+                  90%</label>
+                                    </p>
+                                    <p>
+                                        <label>
+                  <input name="interests_" type="checkbox" class="interests" id="interests_11" value="100%" />
+                  100%</label>
+                                    </p>
+                                </div>
+                                <p class="show-buttons">
+                                    <input type="button" class="show-back alignRight" value="Следно" />
+                                </p>
+                            </div>
+                        </div>
+                        <div class="back cf panel">
+                            <div class="innerContainer">
+                                <h2>Прашање 2/5</h2>
+                                <p>На кој Факултет студирате?</p>
+                                <p>
+                                    <input id="desiredCourse" type="text" placeholder="Напиши тука" /></p>
+                                <p class="show-buttons">
+                                    <input type="button" class="show-front alignLeft" value="Претходно" />
+                                    <input type="button" class="show-right alignRight" value="Следно" />
+                                </p>
+                            </div>
+                        </div>
+                        <div class="right cf panel">
+                            <div class="innerContainer">
+                                <h2>Прашање 3/5</h2>
+                                <p>олку сте присутни на online предавањата?</p>
+                                <p>
+                                    <input type="radio" id="artistLength1" name="artistLength" value="никогаш (0%)" />
+                                    <label>никогаш (0%)</label>
+                                </p>
+                                <p>
+                                    <input type="radio" id="artistLength2" name="artistLength" value="ретко (до 30%)" />
+                                    <label>ретко (до 30%)</label>
+                                </p>
+                                <p>
+                                    <input type="radio" id="artistLength3" name="artistLength" value="повремено (30-70%)" />
+                                    <label>повремено (30-70%)</label>
+                                </p>
+                                <p>
+                                    <input type="radio" id="artistLength4" name="artistLength" value="скоро редовно (повеќе од 70%)" />
+                                    <label>скоро редовно (повеќе од 70%)</label>
+                                </p>
+                                <p>
+                                    <input type="radio" id="artistLength5" name="artistLength" value="секогаш (100%)" />
+                                    <label>секогаш (100%).</label>
+                                </p>
+                                <p class="show-buttons">
+                                    <input type="button" class="show-back alignLeft" value="Претходно" />
+                                    <input type="button" class="show-left alignRight" value="Следно" />
+                                </p>
+                            </div>
+                        </div>
+                        <div class="left cf panel">
+                            <div class="innerContainer">
+                                <h2>Прашање 4/5</h2>
+                                <p>Колку часови во денот имате предавања?</p>
+                                <p>
+                                    <input type="range" min="0" max="24" value="0" id="hoursPractice" onchange="printValue('hoursPractice','hoursPracticeValue')" />
+                                </p>
+                                <p>
+                                    <input type="text" id="hoursPracticeValue" placeholder="Move slider from 0 to 24 hours" />
+                                </p>
+                                <p class="show-buttons">
+                                    <input type="button" class="show-right alignLeft" value="Претходно" />
+                                    <input type="button" class="show-top alignRight" value="Следно" />
+                                </p>
+                            </div>
+                        </div>
+                        <div class="top cf panel">
+                            <div class="innerContainer">
+                                <h2>Прашање 5/5</h2>
+                                <p>Како би го оцениле знаењето што ќе го усвоите на овој семестар, во однос на знаењето што би го усвоиле ако се организирана нормлно наствата?</p>
+                                <p>
+                                    <label>
+                <input class="shared" type="checkbox" name="viewers_" value="Исто" id="viewers_0" />
+                Исто</label>
+                                </p>
+                                <p>
+                                    <label>
+                <input class="shared" type="checkbox" name="viewers_" value="Помалку, отколку вообичаено" id="viewers_0" />
+                Помалку, отколку вообичаено</label>
+                                </p>
+                                <p>
+                                    <label>
+                <input class="shared" type="checkbox" name="viewers_" value="Повеќе, отколку вообичаено" id="viewers_0" />
+                Повеќе, отколку вообичаено</label>
+                                </p>
+                                <p>
+                                    <label>
+                <input class="shared" type="checkbox" name="viewers_" value="Средно" id="viewers_0" />
+                Средно</label>
+                                </p>
+                                <p>
+                                    <label>
+                <input class="shared" type="checkbox" name="viewers_" value="Немам мислење" id="viewers_0" />
+                Немам мислење</label>
+                                </p>
+                                <p class="show-buttons">
+                                    <input type="button" class="show-left alignLeft" value="Претходно" />
+                                    <input id="review" type="button" class="show-bottom alignRight" value="Следно" />
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bottom cf panel">
+                            <div class="innerContainer">
+                                <h2>Прегледај и испрати</h2>
+                                <p>Ве молиме пред да ја испратете поратака прегледајте ги вашите одговори потоа кликнете на копчето испрати.</p>
+                                <table width="100%">
+                                    <tr>
+                                        <td width="15%">Прашање 1:</td>
+                                        <td id="interestsResult" width="60%"><strong>Interests: </strong></td>
+                                        <td width="25%" class="show-buttons"><input type="button" class="show-front" value="Измени" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Прашање 2:</td>
+                                        <td id="desiredCourseResult"><strong>Desired: </strong></td>
+                                        <td class="show-buttons"><input type="button" class="show-back" value="Измени" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Прашање 3:</td>
+                                        <td id="artistLengthResult"><strong>Artist: </strong></td>
+                                        <td class="show-buttons"><input type="button" class="show-right" value="Измени" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Прашање 4:</td>
+                                        <td id="hoursPracticeResult"><strong>Hours: </strong></td>
+                                        <td class="show-buttons"><input type="button" class="show-left" value="Измени" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Прашање 5:</td>
+                                        <td id="sharedResult"><strong>Shared: </strong></td>
+                                        <td class="show-buttons"><input type="button" class="show-top" value="Измени" /></td>
+                                    </tr>
+                                </table>
+                                <p>Ви благодариме на одвоеното време.</p>
+                                <p class="show-buttons">
+                                    <input type="button" class="show-top alignLeft" value="Претходно" />
+                                    <input type="submit" class="alignRight" value="Испрати" />
+                                </p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </article>
+        <aside>
+            <div class="search">
+                <h1>Пребарувај</h1>
+                <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+                    <input type="text" placeholder="Search.." name="search2">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="reklama1">
+                <h1>РЕКЛАМИ</h1>
+                <img id="ad1" src="images/reklama1.jpg">
+            </div>
+        </aside>
+    </div>
+    <!--SKRIPTI-->
+    <script src="js/javascript.js"></script>
+</body>
+
+</html>

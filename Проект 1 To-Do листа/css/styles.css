@@ -1,0 +1,56 @@
+body {
+    max-width: 80%;
+    margin: 0;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #532600;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+nav .active {
+    background-color: #be4f00;
+}
+
+#topbanner {
+    padding: 2.5em;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mainContent {
+    float: left;
+    width: 415px;
+}
+
+aside {
+    width: 300px;
+    float: right;
+    display: block;
+}
+
+article {
+    clear: both;
+}
